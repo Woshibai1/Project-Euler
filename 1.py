@@ -1,2 +1,3 @@
-q = [i for i in range(0,1000) if i % 3 == 0 or i % 5 == 0]
-print (sum(q))
+def Multiples(n,m):
+  q = [i for i in range(0,1000) if i % n == 0 or i % m == 0]
+  return sum(q)
